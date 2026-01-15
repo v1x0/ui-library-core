@@ -3,5 +3,8 @@
  */
 
 export * from './lib/balance-ui/balance.component';
+
 export * from './lib/record-modal-ui/record-modal.component';
 export * from './lib/record-modal-ui/record-modal.interface';
+
+export * from './lib/add-record-modal-ui/addRecordModalContent.component';

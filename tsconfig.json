@@ -4,8 +4,11 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
-      "balance-ui": [
-        "./dist/balance-ui"
+      "add-record-template-modal": [
+        "./dist/add-record-template-modal"
+      ],
+      "vixo-library-ui": [
+        "./dist/vixo-library-ui"
       ]
     },
     "strict": true,
@@ -29,10 +32,10 @@
   "files": [],
   "references": [
     {
-      "path": "./projects/balance-ui/tsconfig.lib.json"
+      "path": "./projects/vixo-library-ui/tsconfig.lib.json"
     },
     {
-      "path": "./projects/balance-ui/tsconfig.spec.json"
+      "path": "./projects/vixo-library-ui/tsconfig.spec.json"
     }
   ]
 }
